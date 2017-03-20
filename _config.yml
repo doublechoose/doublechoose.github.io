@@ -17,11 +17,11 @@ recent_num: 20
 twitter: 
 weibo: 王泽又又
 github: doublechoose
-facebook wzsorz@163.com
+facebook: wzsorz@163.com
 
 # avatar and Favicon
-avatar: https://img3.doubanio.com/view/photo/thumb/public/p2444543010.webp
-favicon: https://img3.doubanio.com/view/photo/thumb/public/p2444543010.webp
+avatar: http://tva2.sinaimg.cn/crop.0.0.180.180.180/b1628b8fjw1e8qgp5bmzyj2050050aa8.jpg
+favicon: http://tva2.sinaimg.cn/crop.0.0.180.180.180/b1628b8fjw1e8qgp5bmzyj2050050aa8.jpg
 
 # disqus config
 disqus:
