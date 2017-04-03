@@ -5,12 +5,12 @@ category: 工具
 keywords: 工具,2017
 ---
 
-#SASS
+# SASS
 
-##命令
+## 命令
 	sass test.scss test.css
 	
-##四种编译风格
+## 四种编译风格
 1. **nested**：嵌套缩进的css，默认
 2. **expanded**：没有锁紧，扩展的css
 3. **compact**：简洁格式的css
@@ -20,16 +20,16 @@ keywords: 工具,2017
 	
 	sass --style compressed test.sass test.css
 
-##可以通过监听，自动编译
+## 可以通过监听，自动编译
 
 	// watch a file
 	sass --watch input.scss:output.css
 	// watch a directory
 	sass --watch app/sass:public/stylesheets
 	
-##基本用法
+## 基本用法
 
-###变量
+### 变量
 
 	$blue : #1875e7
 	div {
@@ -44,14 +44,14 @@ keywords: 工具,2017
 		border-#{$side}-radius : 5px;
 	}
 
-###计算能力
+### 计算能力
 	body{
 		margin: (14px/2);
 		top: 50px + 100px;
 		right:$var * 10%;
 	}
 
-###嵌套
+### 嵌套
 
 	div h1 {
 		color : red;
@@ -156,7 +156,7 @@ keywords: 工具,2017
 	@import “path/filename.scss";
 	@import "foo.css";
 
-###高级用法
+### 高级用法
 #### 条件语句
 
 	p {
@@ -170,7 +170,7 @@ keywords: 工具,2017
 		background-color: #fff;
 	}
 	
-####循环语句
+#### 循环语句
 
 	for $i from 1 to 10 {
 		.border-#{$i} {
@@ -190,7 +190,7 @@ keywords: 工具,2017
 		}
 	}
 	
-####自定义函数
+#### 自定义函数
 
 	@function double($n){
 		@return $n * 2;
